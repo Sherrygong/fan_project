@@ -1,0 +1,4 @@
+#!/bin/bash
+rm modbus_demo
+arm-linux-gcc -o modbus_demo *.c -lpthread
+cp modbus_demo ../tftpd/
